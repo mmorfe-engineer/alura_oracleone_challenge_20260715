@@ -1,0 +1,29 @@
+{
+  "qa_pairs": [
+    {
+      "question": "¿Cuál es el límite diario de transferencias para usuarios nuevos?",
+      "answer": "Para usuarios nuevos, el límite diario de transferencias es de USD 500 durante los primeros 30 días.",
+      "section": "3_TRANSACCIONES_LIMITES"
+    },
+    {
+      "question": "¿Cuánto cuesta transferir a un banco venezolano?",
+      "answer": "La comisión para transferencias a bancos venezolanos es del 0.5% con un mínimo de Bs. 50.",
+      "section": "3_TRANSACCIONES_LIMITES"
+    },
+    {
+      "question": "¿Cómo reporto fraude?",
+      "answer": "Puedes reportar fraude a través de la app móvil en Reportar fraude, por email a fraud@bdt.com.ve o llamando al +58 (212) 999-1111.",
+      "section": "4_SEGURIDAD_FRAUDE"
+    },
+    {
+      "question": "¿Cuáles son los planes disponibles?",
+      "answer": "BDT ofrece tres planes: BÁSICO (gratis), PLUS (Bs. 500/mes) y PREMIUM (Bs. 1,500/mes).",
+      "section": "5_TARIFAS_SUSCRIPCION"
+    },
+    {
+      "question": "¿Cuánto tiempo tarda una transferencia internacional?",
+      "answer": "Las transferencias internacionales tardan entre 1 y 5 días hábiles.",
+      "section": "3_TRANSACCIONES_LIMITES"
+    }
+  ]
+}
