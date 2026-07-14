@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: bdt-rag-agent
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "streamlit run ui/streamlit_app.py --server.port=8501 --server.address=0.0.0.0"
+    
+    # Variables de entorno
+    envVars:
+      - key: MISTRAL_API_KEY
+        sync: false
+      - key: APP_ENV
+        value: production
+      - key: STREAMLIT_SERVER_PORT
+        value: 8501
+    # Persistent data
+    disk:
+      name: chroma-db
+      mountPath: /app/chroma_data
+      sizeGB: 1
