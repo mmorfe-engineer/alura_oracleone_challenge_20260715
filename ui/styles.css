@@ -1,0 +1,74 @@
+/* BDT RAG Agent - Purple Theme */
+
+:root {
+    --purple-dark: #7C3AED;
+    --purple-mid: #A855F7;
+    --pink-accent: #EC4899;
+    --gradient: linear-gradient(135deg, #7C3AED 0%, #A855F7 50%, #EC4899 100%);
+}
+
+.header-purple {
+    background: var(--gradient);
+    color: white;
+    padding: 2.5rem 2rem;
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 20px rgba(124, 58, 237, 0.2);
+}
+
+.header-purple h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+.header-purple p {
+    font-size: 1.1rem;
+    opacity: 0.95;
+    margin: 0.8rem 0 0 0;
+}
+
+.stTextInput input {
+    border: 2px solid var(--purple-mid) !important;
+    border-radius: 8px !important;
+}
+
+.stTextInput input:focus {
+    border-color: var(--pink-accent) !important;
+    box-shadow: 0 0 0 4px rgba(168, 85, 247, 0.15) !important;
+}
+
+.stButton button {
+    background: var(--gradient) !important;
+    color: white !important;
+    font-weight: 600 !important;
+    border-radius: 8px !important;
+}
+
+.stButton button:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 20px rgba(124, 58, 237, 0.3) !important;
+}
+
+.answer-box-success {
+    background: rgba(124, 58, 237, 0.05);
+    border-left: 5px solid var(--purple-mid);
+    padding: 16px 20px;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+.answer-box-error {
+    background: rgba(239, 68, 68, 0.05);
+    border-left: 5px solid #ef4444;
+    padding: 16px 20px;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+[data-testid="metric-container"] {
+    background: linear-gradient(135deg, rgba(124, 58, 237, 0.08), rgba(168, 85, 247, 0.08));
+    border-radius: 8px;
+    border: 1px solid rgba(168, 85, 247, 0.2);
+}
