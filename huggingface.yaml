@@ -1,0 +1,9 @@
+# Hugging Face Spaces Configuration
+# https://huggingface.co/docs/hub/spaces
+
+app_port: 8501
+sdk: streamlit
+
+# Environment variables (to be set in Space settings)
+# MISTRAL_API_KEY: your_mistral_api_key_here
+# APP_ENV: production

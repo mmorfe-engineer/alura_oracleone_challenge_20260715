@@ -4,7 +4,7 @@
 [![Mistral AI](https://img.shields.io/badge/Mistral-API%20Real-purple)](https://mistral.ai/)
 [![ChromaDB](https://img.shields.io/badge/ChromaDB-Persistent-blue)](https://www.trychroma.com/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red?logo=streamlit)](https://streamlit.io/)
-[![Render](https://img.shields.io/badge/Deploy-Render.com-46E3B7)](https://render.com/)
+[![Hugging Face](https://img.shields.io/badge/Deploy-Hugging Face-46E3B7)](https://huggingface.co/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Oracle One Alura](https://img.shields.io/badge/Oracle%20One-Alura%20Challenge-orange)](https://www.oracle.com/alura)
 
@@ -20,7 +20,7 @@
 
 ## 🚀 Demo Viva
 
-**[PRUEBA EL AGENTE EN VIVO](https://bdt-rag-agent.onrender.com)** ← Click aquí para interactuar
+**[PRUEBA EL AGENTE EN VIVO](https://huggingface.co/spaces/mmorfe-engineer/bdt-rag-agent)** ← Click aquí para interactuar
 
 ---
 
@@ -34,7 +34,7 @@ Agente de inteligencia artificial conversacional basado en **Retrieval Augmented
 - 🔍 **Embeddings:** Sentence Transformers (local)
 - 📚 **Vector DB:** ChromaDB (persistent)
 - 🎨 **UI:** Streamlit (tema púrpura)
-- ☁️ **Deploy:** Render.com (gratuito)
+- ☁️ **Deploy:** Hugging Face (gratuito)
 
 ---
 
@@ -217,7 +217,7 @@ test_agent.py::test_search_documents PASSED
 
 ---
 
-## 🚀 Deployment en Render.com
+## 🚀 Deployment en Hugging Face
 
 ### Configuración Automática (Recomendado)
 
@@ -226,17 +226,17 @@ test_agent.py::test_search_documents PASSED
    git push origin main
    ```
 
-2. En Render.com:
+2. En Hugging Face:
    - Conecta GitHub
    - Selecciona este repo
    - Configura Environment Variable: MISTRAL_API_KEY
    - Deploy automático
 
-3. Tu URL: https://bdt-rag-agent.onrender.com
+3. Tu URL: https://huggingface.co/spaces/mmorfe-engineer/bdt-rag-agent
 
 ### Configuración Manual
 
-Desde Render Console:
+Desde Hugging Face Console:
 
 - **Service Type:** Web Service
 - **Runtime:** Python 3.11
@@ -253,7 +253,7 @@ Desde Render Console:
 | Embeddings | ~0.5s (Sentence Transformers local) |
 | LLM Inference | ~1-1.5s (Mistral API) |
 | Precisión | ~85% en preguntas documentadas |
-| Uptime | 99% (Render.com SLA) |
+| Uptime | 99% (Hugging Face SLA) |
 
 ---
 
@@ -267,7 +267,7 @@ Desde Render Console:
 
 ✅ **Deploy Público**
 
-- URL pública en Render.com
+- URL pública en Hugging Face
 - Auto-despliegue desde GitHub
 - HTTPS incluido
 
@@ -317,7 +317,7 @@ morfe-alura-rag-agent/
 ├── README.md              # Este archivo
 ├── requirements.txt       # Deps
 ├── Dockerfile            # Container
-├── render.yaml           # Render config
+├── huggingface.yaml           # Hugging Face Spaces config
 └── .env.example          # Environment template
 ```
 
@@ -333,7 +333,7 @@ morfe-alura-rag-agent/
 | Embeddings | Sentence Transformers | 2.2.2 |
 | RAG | LangChain | 0.1.0 |
 | UI | Streamlit | 1.28.1 |
-| Deploy | Render Web Service | Free tier |
+| Deploy | Hugging Face Web Service | Free tier |
 
 ---
 
@@ -369,7 +369,7 @@ Email: morfefloresm@uvm.edu.ve
 - Alura por el excelente challenge
 - Mistral AI por Codestral LLM
 - Streamlit por la UX simplificada
-- Render.com por deploy gratuito
+- Hugging Face por deploy gratuito
 - LangChain por arquitectura RAG
 
 ---
@@ -389,4 +389,4 @@ Desarrollado con ❤️ para Oracle One Alura Challenge
 
 v1.0.0 | Julio 2026 | Status: ✅ LIVE
 
-🚀 **[VER DEMO EN VIVO](https://bdt-rag-agent.onrender.com)**
+🚀 **[VER DEMO EN VIVO](https://huggingface.co/spaces/mmorfe-engineer/bdt-rag-agent)**
